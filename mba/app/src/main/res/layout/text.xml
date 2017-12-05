@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@+id/click_me_BN" android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="16sp" android:text="点我" android:padding="5dp" android:layout_alignParentBottom="true"/>
+    <TextView android:id="@+id/result_TV" android:layout_height="match_parent" android:layout_width="match_parent" android:textSize="16sp" android:text="Hello World!" android:layout_above="@id/click_me_BN"/>
+</RelativeLayout>
